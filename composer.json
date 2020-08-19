@@ -2,11 +2,10 @@
     "name": "fabricity/admin-lte-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "David Mattei",
-            "email": "david.mattei@sappico.be"
+    "require": {},
+    "autoload" : {
+        "psr-4" : {
+            "Fabricity\\Bundle\\AdminLteBundle\\" : "src/"
         }
-    ],
-    "require": {}
+    }
 }
