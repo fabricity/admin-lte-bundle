@@ -1,6 +1,19 @@
 {
-  "css/admin.css": "/css/admin.css",
-  "js/admin.js": "/js/admin.js",
-  "runtime.js": "/runtime.js",
-  "vendors~js/admin.js": "/vendors~js/admin.js"
+  "bundles/admin-lte/admin-lte.css": "/bundles/adminlte/admin-lte.css",
+  "bundles/admin-lte/admin-lte.js": "/bundles/adminlte/admin-lte.js",
+  "bundles/admin-lte/fonts/fa-brands-400.ttf": "/bundles/adminlte/fonts/fa-brands-400.1776173e.ttf",
+  "bundles/admin-lte/fonts/fa-brands-400.woff": "/bundles/adminlte/fonts/fa-brands-400.28d8b8fc.woff",
+  "bundles/admin-lte/fonts/fa-brands-400.woff2": "/bundles/adminlte/fonts/fa-brands-400.37913cdf.woff2",
+  "bundles/admin-lte/fonts/fa-brands-400.eot": "/bundles/adminlte/fonts/fa-brands-400.bfcc3384.eot",
+  "bundles/admin-lte/fonts/fa-regular-400.eot": "/bundles/adminlte/fonts/fa-regular-400.0c6f12b9.eot",
+  "bundles/admin-lte/fonts/fa-regular-400.woff2": "/bundles/adminlte/fonts/fa-regular-400.c3c2ab4f.woff2",
+  "bundles/admin-lte/fonts/fa-regular-400.ttf": "/bundles/adminlte/fonts/fa-regular-400.c9c57c0f.ttf",
+  "bundles/admin-lte/fonts/fa-regular-400.woff": "/bundles/adminlte/fonts/fa-regular-400.fcaa6c13.woff",
+  "bundles/admin-lte/fonts/fa-solid-900.woff": "/bundles/adminlte/fonts/fa-solid-900.22aa6d43.woff",
+  "bundles/admin-lte/fonts/fa-solid-900.woff2": "/bundles/adminlte/fonts/fa-solid-900.4055b057.woff2",
+  "bundles/admin-lte/fonts/fa-solid-900.ttf": "/bundles/adminlte/fonts/fa-solid-900.a480ec97.ttf",
+  "bundles/admin-lte/fonts/fa-solid-900.eot": "/bundles/adminlte/fonts/fa-solid-900.dfaa060a.eot",
+  "bundles/admin-lte/images/fa-brands-400.svg": "/bundles/adminlte/images/fa-brands-400.63b56623.svg",
+  "bundles/admin-lte/images/fa-regular-400.svg": "/bundles/adminlte/images/fa-regular-400.1b536b78.svg",
+  "bundles/admin-lte/images/fa-solid-900.svg": "/bundles/adminlte/images/fa-solid-900.3e2bc2ff.svg"
 }

@@ -1,18 +1,11 @@
 {
   "entrypoints": {
-    "js/admin": {
-      "js": [
-        "/runtime.js",
-        "/vendors~js/admin.js",
-        "/js/admin.js"
-      ]
-    },
-    "css/admin": {
-      "js": [
-        "/runtime.js"
-      ],
+    "admin-lte": {
       "css": [
-        "/css/admin.css"
+        "/bundles/adminlte/admin-lte.css"
+      ],
+      "js": [
+        "/bundles/adminlte/admin-lte.js"
       ]
     }
   }
