@@ -6,6 +6,6 @@ namespace Fabricity\Bundle\AdminLteBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class FabricityAdminLteBundle extends Bundle
+final class FabricityAdminLteBundle extends Bundle
 {
 }

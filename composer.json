@@ -5,9 +5,15 @@
     "require": {
         "php": "^7.4"
     },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
     "autoload" : {
         "psr-4" : {
             "Fabricity\\Bundle\\AdminLteBundle\\" : "src/"
         }
+    },
+    "scripts": {
+        "phpcs": "php-cs-fixer fix"
     }
 }
