@@ -1,0 +1,23 @@
+{
+    "name": "fabricity/admin-lte-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4",
+        "symfony/http-kernel": "^5.1",
+        "symfony/dependency-injection": "^5.1"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "phpstan/phpstan": "^0.12.54"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Fabricity\\Bundle\\AdminLteBundle\\" : "src/"
+        }
+    },
+    "scripts": {
+        "phpcs": "php-cs-fixer fix",
+        "phpstan": "phpstan analyse src"
+    }
+}
