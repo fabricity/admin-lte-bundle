@@ -5,7 +5,8 @@
     "require": {
         "php": "^7.4",
         "symfony/http-kernel": "^5.1",
-        "symfony/dependency-injection": "^5.1"
+        "symfony/dependency-injection": "^5.1",
+        "fabricity/admin-bundle": "dev-develop"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
