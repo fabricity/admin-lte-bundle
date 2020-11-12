@@ -1,0 +1,13 @@
+{
+    "name": "fabricity/admin-lte-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Fabricity\\Bundle\\AdminLteBundle\\" : "src/"
+        }
+    }
+}
