@@ -1,0 +1,12 @@
+{
+  "entrypoints": {
+    "admin-lte": {
+      "css": [
+        "/bundles/adminlte/admin-lte.73d99a54.css"
+      ],
+      "js": [
+        "/bundles/adminlte/admin-lte.432efffc.js"
+      ]
+    }
+  }
+}
