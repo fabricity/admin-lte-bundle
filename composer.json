@@ -20,5 +20,9 @@
     "scripts": {
         "phpcs": "php-cs-fixer fix",
         "phpstan": "phpstan analyse src"
+    },
+    "config": {
+        "sort-packages": true,
+        "lock": false
     }
 }
