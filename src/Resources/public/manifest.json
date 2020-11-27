@@ -1,4 +1,19 @@
 {
-  "bundles/admin-lte/admin-lte.css": "/bundles/adminlte/admin-lte.73d99a54.css",
-  "bundles/admin-lte/admin-lte.js": "/bundles/adminlte/admin-lte.432efffc.js"
+  "bundles/fabricity-admin-lte/fabricity-admin-lte.css": "./fabricity-admin-lte.css",
+  "bundles/fabricity-admin-lte/fabricity-admin-lte.js": "./fabricity-admin-lte.js",
+  "bundles/fabricity-admin-lte/fonts/fa-brands-400.eot": "./fonts/fa-brands-400.0fea24969112a781acd2463caf03f138.eot",
+  "bundles/fabricity-admin-lte/fonts/fa-brands-400.woff2": "./fonts/fa-brands-400.c967a94cfbe2b06627ffe7861c741a61.woff2",
+  "bundles/fabricity-admin-lte/fonts/fa-brands-400.woff": "./fonts/fa-brands-400.dc2cbadd690e1d4b2c9c11c8143d027c.woff",
+  "bundles/fabricity-admin-lte/fonts/fa-brands-400.svg": "./fonts/fa-brands-400.e33e2cf6e02cac2ccb77689015f11c56.svg",
+  "bundles/fabricity-admin-lte/fonts/fa-brands-400.ttf": "./fonts/fa-brands-400.ec82f282c7f54b6370985bdf8406d5b7.ttf",
+  "bundles/fabricity-admin-lte/fonts/fa-regular-400.svg": "./fonts/fa-regular-400.06b9d19ced8d17f3d5cbd5f1cbb31460.svg",
+  "bundles/fabricity-admin-lte/fonts/fa-regular-400.eot": "./fonts/fa-regular-400.08f9891a6f44d9546678133ab121fc54.eot",
+  "bundles/fabricity-admin-lte/fonts/fa-regular-400.woff2": "./fonts/fa-regular-400.1008b5226941c24f44681061d347ad5e.woff2",
+  "bundles/fabricity-admin-lte/fonts/fa-regular-400.woff": "./fonts/fa-regular-400.1069ea55beaa0106030287c659732543.woff",
+  "bundles/fabricity-admin-lte/fonts/fa-regular-400.ttf": "./fonts/fa-regular-400.1495f578452eb676f730244d3b9368cd.ttf",
+  "bundles/fabricity-admin-lte/fonts/fa-solid-900.ttf": "./fonts/fa-solid-900.10ecefc282f2761808bf26cb335511d5.ttf",
+  "bundles/fabricity-admin-lte/fonts/fa-solid-900.svg": "./fonts/fa-solid-900.371dbce0dd46bd4d2033eb2334f28580.svg",
+  "bundles/fabricity-admin-lte/fonts/fa-solid-900.eot": "./fonts/fa-solid-900.3a24a60e7f9c6574864a38814fa07533.eot",
+  "bundles/fabricity-admin-lte/fonts/fa-solid-900.woff2": "./fonts/fa-solid-900.3ceb50e7bcafb577367c21b53064e00c.woff2",
+  "bundles/fabricity-admin-lte/fonts/fa-solid-900.woff": "./fonts/fa-solid-900.46fdbd2d897f8824e63c8862af60b24c.woff"
 }
