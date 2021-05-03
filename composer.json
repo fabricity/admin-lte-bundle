@@ -4,7 +4,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.4",
-        "fabricity/admin-bundle": "dev-develop",
+        "fabricity/admin-bundle": "0.*",
         "symfony/dependency-injection": "^5.1",
         "symfony/http-kernel": "^5.1",
         "symfony/webpack-encore-bundle": "^1.8"
