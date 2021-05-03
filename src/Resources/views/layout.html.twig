@@ -11,9 +11,16 @@
             </li>
         </ul>
     </nav>
-
-    {% with {'elements': fabricity_layout.asideLeft } %}{{ block('render', '@FabricityAdminLte/elements/aside_left.html.twig') }}{% endwith %}
-
+    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        {% block logo %}
+            <a href="#" class="brand-link">
+                <span class="brand-text font-weight-light">AdminLTE 3</span>
+            </a>
+        {% endblock %}
+        <div class="sidebar">
+            {% with {'elements': fabricity_layout.asideLeft } %}{{ block('render', '@FabricityAdminLte/elements/aside_left.html.twig') }}{% endwith %}
+        </div>
+    </aside>
     <div class="content-wrapper">
         <section class="content-header">
             <div class="container-fluid">

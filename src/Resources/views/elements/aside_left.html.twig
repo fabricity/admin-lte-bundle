@@ -1,21 +1,14 @@
 {# @var elements \Fabricity\Bundle\AdminBundle\Admin\Layout\Element\ElementInterface #}
 {%- block render -%}
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <a href="../../index3.html" class="brand-link">
-        <span class="brand-text font-weight-light">AdminLTE 3</span>
-    </a>
-    <div class="sidebar">
-        <nav class="mt-2">
-            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                {%- for menu in elements.menus -%}
-                    {%- set options = menu.options -%}
-                    {%- if options.label is not empty -%}<li class="nav-header">{{ block('renderLabel') }}</li>{%- endif -%}
-                    {%- for menuItem in menu.items -%}{{ block('renderItem') }}{%- endfor -%}
-                {%- endfor -%}
-            </ul>
-        </nav>
-    </div>
-</aside>
+    <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            {%- for menu in elements.menus -%}
+                {%- set options = menu.options -%}
+                {%- if options.label is not empty -%}<li class="nav-header">{{ block('renderLabel') }}</li>{%- endif -%}
+                {%- for menuItem in menu.items -%}{{ block('renderItem') }}{%- endfor -%}
+            {%- endfor -%}
+        </ul>
+    </nav>
 {%- endblock -%}
 
 {%- block renderLabel -%}
