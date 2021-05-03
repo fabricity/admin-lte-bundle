@@ -1,0 +1,59 @@
+{# @var elements \Fabricity\Bundle\AdminBundle\Admin\Layout\Element\ElementInterface #}
+{%- block render -%}
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <a href="../../index3.html" class="brand-link">
+        <span class="brand-text font-weight-light">AdminLTE 3</span>
+    </a>
+    <div class="sidebar">
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                {%- for menu in elements.menus -%}
+                    {%- set options = menu.options -%}
+                    {%- if options.label is not empty -%}<li class="nav-header">{{ block('renderLabel') }}</li>{%- endif -%}
+                    {%- for menuItem in menu.items -%}{{ block('renderItem') }}{%- endfor -%}
+                {%- endfor -%}
+            </ul>
+        </nav>
+    </div>
+</aside>
+{%- endblock -%}
+
+{%- block renderLabel -%}
+{%- if options.translation_domain is not empty -%}
+    {{- options.label|trans(options.label_translation_parameters, options.translation_domain) -}}
+{%- else -%}
+    {{- options.label -}}
+{%- endif -%}
+{%- endblock -%}
+
+{%- block renderHref -%}
+    {%- if options.route is not null -%}
+        {{ path(options.route, options.route_parameters) }}
+    {%- else -%}
+        #
+    {%- endif -%}
+{%- endblock -%}
+
+{%- block renderItem -%}
+    {%- set options = menuItem.options -%}
+    <li class="nav-item">
+        <a href="{{- block('renderHref') -}}" class="nav-link">
+            {%- if options.icon is not null -%}<i class="{{ options.icon }} nav-icon {{ options.icon_class }}"></i>{%- endif -%}
+            <p>
+                {{ block('renderLabel') }}
+                {%- if menuItem.items|length > 0  -%}<i class="right fas fa-angle-left"></i>{%- endif -%}
+            </p>
+        </a>
+        {%- with {'level': menuItem } -%}{{ block('renderLevel') }}{%- endwith -%}
+    </li>
+{%- endblock -%}
+
+{%- block renderLevel -%}
+    {%- if level.items|length > 0 -%}
+        <ul class="nav nav-treeview">
+            {%- for menuItem in level.items -%}
+                {{ block('renderItem') }}
+            {%- endfor -%}
+        </ul>
+    {%- endif -%}
+{%- endblock -%}

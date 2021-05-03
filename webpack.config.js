@@ -3,7 +3,7 @@ var Encore = require('@symfony/webpack-encore');
 Encore
     .setOutputPath('./src/Resources/public/')
     .setPublicPath('./')
-    .setManifestKeyPrefix('bundles/fabricity-admin-lte')
+    .setManifestKeyPrefix('bundles/fabricityadminlte')
 
     .cleanupOutputBeforeBuild()
     .enableSassLoader()
@@ -14,7 +14,7 @@ Encore
 
     // copy FontAwesome fonts
     .copyFiles({
-        from: './node_modules/@fortawesome/fontawesome-free/webfonts/',
+        from: 'node_modules/@fortawesome/fontawesome-free/webfonts/',
         // relative to the output dir
         to: 'fonts/[name].[hash].[ext]'
     })
