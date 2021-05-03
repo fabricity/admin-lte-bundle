@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{% block title %}AdminLTE 3 | Dashboard{% endblock title %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% block stylesheets %}<link rel="stylesheet" href="{{ asset('bundles/fabricityadminlte/fabricity-admin-lte.css') }}">{% endblock stylesheets %}
+    </head>
+    <body class="{{ bodyClass|default('') }}">
+        {% block body %}{% endblock body %}
+        {% block javascripts %}<script src="{{ asset('bundles/fabricityadminlte/fabricity-admin-lte.js') }}"></script>{% endblock %}
+    </body>
+</html>

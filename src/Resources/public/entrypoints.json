@@ -1,0 +1,12 @@
+{
+  "entrypoints": {
+    "fabricity-admin-lte": {
+      "css": [
+        "./fabricity-admin-lte.css"
+      ],
+      "js": [
+        "./fabricity-admin-lte.js"
+      ]
+    }
+  }
+}

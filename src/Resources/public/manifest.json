@@ -1,0 +1,22 @@
+{
+  "bundles/fabricityadminlte/fabricity-admin-lte.css": "./fabricity-admin-lte.css",
+  "bundles/fabricityadminlte/fabricity-admin-lte.js": "./fabricity-admin-lte.js",
+  "bundles/fabricityadminlte/fonts/fa-brands-400.svg": "./fonts/fa-brands-400.216edb96b562c79adc09e2d3c63db7c0.svg",
+  "bundles/fabricityadminlte/fonts/fa-brands-400.woff": "./fonts/fa-brands-400.329a95a9172fdb2cccb4f9347ed55233.woff",
+  "bundles/fabricityadminlte/fonts/fa-brands-400.eot": "./fonts/fa-brands-400.89a52ae1d02b86d6143987c865471c24.eot",
+  "bundles/fabricityadminlte/fonts/fa-brands-400.ttf": "./fonts/fa-brands-400.9e138496e8f1719c6ebf0abe50563635.ttf",
+  "bundles/fabricityadminlte/fonts/fa-brands-400.woff2": "./fonts/fa-brands-400.c1210e5ebe4344da508396540be7f52c.woff2",
+  "bundles/fabricityadminlte/fonts/fa-regular-400.ttf": "./fonts/fa-regular-400.1017bce89c72f95bcf8e2bf4774efdbf.ttf",
+  "bundles/fabricityadminlte/fonts/fa-regular-400.svg": "./fonts/fa-regular-400.19e27d348fefc21941e0310a0ec6339b.svg",
+  "bundles/fabricityadminlte/fonts/fa-regular-400.woff": "./fonts/fa-regular-400.3672264812746c3c7225909742da535c.woff",
+  "bundles/fabricityadminlte/fonts/fa-regular-400.eot": "./fonts/fa-regular-400.4079ae2d2a15d0689568f3a5459241c7.eot",
+  "bundles/fabricityadminlte/fonts/fa-regular-400.woff2": "./fonts/fa-regular-400.68c5af1f48e2bfca1e57ae1c556a5c72.woff2",
+  "bundles/fabricityadminlte/fonts/fa-solid-900.ttf": "./fonts/fa-solid-900.07c3313b24f7b1ca85ee99b4fa7db55e.ttf",
+  "bundles/fabricityadminlte/fonts/fa-solid-900.svg": "./fonts/fa-solid-900.13de59f1a36b6cb4bca0050160ff0e41.svg",
+  "bundles/fabricityadminlte/fonts/fa-solid-900.woff2": "./fonts/fa-solid-900.ada6e6df937f7e5e8b790dfea07109b7.woff2",
+  "bundles/fabricityadminlte/fonts/fa-solid-900.woff": "./fonts/fa-solid-900.c6ec080084769a6d8a34ab35b77999cd.woff",
+  "bundles/fabricityadminlte/fonts/fa-solid-900.eot": "./fonts/fa-solid-900.efbd5d20e407bbf85f2b3087ee67bfa1.eot",
+  "bundles/fabricityadminlte/images/fa-brands-400.svg": "./images/fa-brands-400.216edb96.svg",
+  "bundles/fabricityadminlte/images/fa-regular-400.svg": "./images/fa-regular-400.19e27d34.svg",
+  "bundles/fabricityadminlte/images/fa-solid-900.svg": "./images/fa-solid-900.13de59f1.svg"
+}
